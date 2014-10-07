@@ -1,110 +1,74 @@
-![Monochrome self-portrait with camera](https://farm3.staticflickr.com/2939/14548190587_a2f25e3f05_h_d.jpg)
-
-Florian Haas
-
-florian@hastexo.com
+The year was
+# 2012
+Note: ... early 2012, to be exact.
 
 
-A presentation
-# Toolbox
-That Might Blow Your Audience Away
+The world was a
+# different
+place
+Note: ... for a variety of reasons.
 
 
-This is about
-# tools
+# iPhones
+had a
+### majority market share
 
 
-Not
-# delivery
+# Eucalyptus
+was still
+### a thing
 
 
-Not
-# structure
+# Ceph
+was
+## new
 
 
-Not
-# personal presence
+# Inktank
+did not
+## exist
 
 
-Why? Because
-# others
-have covered it
-# better
-than I can
+# I
+was in
+## San Francisco
 
 
-## Presentation Zen
-Garr Reynolds
+... and I was
+# confused.
 
 
-## Presentation Aikido
-Damian Conway
+I found myself
+# arguing
 
 
-
-Things you can safely
-# Forget about
-
-
-Microsoft
-# PowerPoint
+over whether
+# OpenStack
+needed
+## High Availability
 
 
-Apple
-# Keynote
+<!-- WTF? / Capt. Picard -->
 
 
-LibreOffice
-# Impress
+and the
+## opposing argument
+was
 
 
-Google
-# Slides
+# "It's hard."
 
 
-There is
-# one tool
-that you use
-# every day
+<!-- "That escalated quickly." / "Double facepalm" -->
 
 
-On your
-# Laptop
+<!-- Angry Picard -->
 
 
-on your
-# Phone
+Fast-forward to
+# today
 
 
-on your
-# Tablet
+# Are We There Yet?
 
-
-That tool is
-# your browser
-
-
-So you want your presentations to be in
-# HTML
-
-
-and look good on
-# any device
-
-
-Now, are you an
-# HTML ninja?
-
-
-or a
-# CSS guru?
-
-
-or a
-# JavaScript expert?
-
-
-Well,
-# I'm not.
-Far from it, actually.
 
