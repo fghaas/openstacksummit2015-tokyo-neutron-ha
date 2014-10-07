@@ -48,9 +48,6 @@ needed
 ## High Availability
 
 
-<!-- WTF? / Capt. Picard -->
-
-
 and the
 ## opposing argument
 was
@@ -59,14 +56,20 @@ was
 # "It's hard."
 
 
-<!-- "That escalated quickly." / "Double facepalm" -->
+![Picard and Riker double facepalm](http://gamerindebt.co.uk/wp-content/uploads/2013/07/double-facepalm.jpg)
 
 
-<!-- Angry Picard -->
+But thankfully...
+
+
+... things have changed for the better.
 
 
 Fast-forward to
 # today
+
+
+... and let's ask:
 
 
 # Are We There Yet?
