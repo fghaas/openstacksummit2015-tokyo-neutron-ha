@@ -26,12 +26,6 @@
     <div class="reveal">
       <div class="slides">
 
-	<section>
-	  <div class="qrcode" id="qrcode-talk"/>
-	  <p><a href="http://fghaas.github.io/lceu2014-openstack-ha" target="_blank"
-		id="talk">http://fghaas.github.io/lceu2014-openstack-ha</a></p>
-	</section>
-
 	<section id="intro"
 		 data-markdown="markdown/intro.md"
 		 data-separator="^\n\n\n"
@@ -104,32 +98,6 @@
 
       </div>
     </div>
-
-    <script src="qrcodejs/qrcode.js"></script>
-    <script>
-/* Grab all links and iterate over them */
-var sources = document.getElementsByTagName('a');
-n = sources.length;
-for (var i = 0; i < n; i++) {
-    var source = sources[i];
-    var href = source.href;
-
-    /* If the link has no href attribute, skip it */
-    if (href) {
-	var target_id = "qrcode-" + source.id ;
-	var target = document.getElementById(target_id);
-	/* If the source has no corresponding target element, skip
-	 * it */
-	if (target) {
-	    var qr = new QRCode(target, {
-		colorDark : "#000000",
-		colorLight : "rgba(255,255,255,0)",
-	    });
-	    qr.makeCode(href);
-	}
-    }
-}
-    </script>
 
     <script src="reveal.js/lib/js/head.min.js"></script>
     <script src="reveal.js/js/reveal.min.js"></script>
