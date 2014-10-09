@@ -26,3 +26,6 @@ Corosync/Pacemaker
 
 ## HA Cluster Storage
 Ceph
+
+
+## Deployment automation
