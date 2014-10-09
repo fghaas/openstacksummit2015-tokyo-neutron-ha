@@ -24,11 +24,6 @@ was
 ## new
 
 
-# Inktank
-did not
-## exist
-
-
 # I
 was in
 ## San Francisco
