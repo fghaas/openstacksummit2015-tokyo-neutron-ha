@@ -24,11 +24,6 @@ was
 ## new
 
 
-# Inktank
-did not
-## exist
-
-
 # I
 was in
 ## San Francisco
@@ -73,5 +68,3 @@ Fast-forward to
 
 
 # Are We There Yet?
-
-

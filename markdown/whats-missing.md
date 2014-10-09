@@ -38,3 +38,8 @@ over. This is the approach integrated with SUSE Cloud 3.
 
 ## Juno: HA virtual routers
 VRRP & DVR
+
+
+Highly available
+## Nova guests
+Still waiting...
