@@ -73,5 +73,3 @@ Fast-forward to
 
 
 # Are We There Yet?
-
-
