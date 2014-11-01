@@ -37,7 +37,7 @@ over. This is the approach integrated with SUSE Cloud 3.
 
 
 ## Juno: HA virtual routers
-VRRP & DVR
+VRRP & DVR *(experimental)*
 
 
 Highly available
