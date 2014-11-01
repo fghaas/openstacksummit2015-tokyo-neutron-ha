@@ -51,7 +51,7 @@ was
 # "It's hard."
 
 
-![Picard and Riker double facepalm](http://gamerindebt.co.uk/wp-content/uploads/2013/07/double-facepalm.jpg)
+<!-- .slide: data-background="http://gamerindebt.co.uk/wp-content/uploads/2013/07/double-facepalm.jpg" data-background-size="cover" -->
 
 
 But thankfully...
