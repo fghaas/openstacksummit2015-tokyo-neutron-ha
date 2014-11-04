@@ -51,7 +51,7 @@ was
 # "It's hard."
 
 
-<!-- .slide: data-background="http://gamerindebt.co.uk/wp-content/uploads/2013/07/double-facepalm.jpg" data-background-size="cover" -->
+<!-- .slide: data-background="http://gamerindebt.co.uk/wp-content/uploads/2013/07/double-facepalm.jpg" data-background-size="contain" -->
 
 
 But thankfully...
