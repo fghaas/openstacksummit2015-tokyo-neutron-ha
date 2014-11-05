@@ -11,8 +11,7 @@ relevant in lab setups, so let's define our minimum viable OpenStack
 deployment thus:
 
 
-![Simple OpenStack cloud](images/simple-cloud.svg)
-
+<!-- .slide: data-background="images/simple-cloud.svg" data-background-size="contain" -->
 Note:
 - A single API node, this is where all your client-side API
 requests come in. Possibly via the dashboard, possibly directly from a
@@ -32,7 +31,10 @@ SPOFs and bottlenecks.
 Ideally, this would lead us to:
 
 
-![Simple OpenStack cloud](images/ha-cloud.svg)
+<!-- .slide: data-background="images/simple-cloud.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background="images/ha-cloud.svg" data-background-size="contain" -->
 Note:
 - Highly available, load-balanced API nodes, eliminating both a
   bottleneck and a SPOF.
