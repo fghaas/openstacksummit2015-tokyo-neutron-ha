@@ -19,6 +19,20 @@ Presenters:
   `images`.
 - Commit in your master branch and send a pull request.
 
+### Demos
+
+We'll be using Asciinema for demos. In order to do so, run your demo
+in `script`, like so:
+
+```bash
+$ script --timing=demo.timing demo.script
+```
+
+This opens up a new shell that has all its terminal output
+recorded. Type `exit` or hit `Ctrl-D` to close the shell, then send
+Florian both generated files and he takes care of turning them into an
+asciicast.
+
 ## Checking your work
 
 - Merge `master` into `gh-pages`.
@@ -26,3 +40,27 @@ Presenters:
   using GitHub Pages.
 - Open http://username.github.io/openstacksummit2015-tokyo-neutron-ha,
   replacing `username` with your GitHub user name.
+
+### Running things locally
+
+If you want to run your slides locally, rather than on GitHub Pages,
+just drop them into the DocumentRoot of a web server, like Apache or
+lighttpd (lighty).
+
+For lighttpd, you may also want to set the following options:
+
+```
+dir-listing.encoding = "utf-8"
+server.dir-listing   = "enable"
+server.modules      += ( "mod_userdir" )
+userdir.path         = "public_html"
+```
+
+Then, create a symlink to your Git checkout in `~/public_html', such as:
+
+```bash
+ln -s ~/git/openstacksummit2015-tokyo-neutron-ha ~/public_html/
+```
+
+... and access your presentation from
+http://localhost/~yourusername/openstacksummit2015-tokyo-neutron-ha/
