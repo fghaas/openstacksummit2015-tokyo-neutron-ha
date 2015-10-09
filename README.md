@@ -29,9 +29,9 @@ $ script --timing=demo.timing demo.script
 ```
 
 This opens up a new shell that has all its terminal output
-recorded. Type `exit` or hit `Ctrl-D` to close the shell, then send
-Florian both generated files and he takes care of turning them into an
-asciicast.
+recorded. When your demo is complete, type `exit` or hit `Ctrl-D` to
+close the shell. Then send Florian both generated files and he takes
+care of turning them into an asciicast.
 
 ## Checking your work
 
