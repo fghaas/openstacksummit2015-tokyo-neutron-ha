@@ -56,11 +56,11 @@ server.modules      += ( "mod_userdir" )
 userdir.path         = "public_html"
 ```
 
-Then, create a symlink to your Git checkout in `~/public_html', such as:
+Then, create a symlink to your Git checkout in `~/public_html`, such as:
 
 ```bash
 ln -s ~/git/openstacksummit2015-tokyo-neutron-ha ~/public_html/
 ```
 
 ... and access your presentation from
-http://localhost/~yourusername/openstacksummit2015-tokyo-neutron-ha/
+http://localhost/~yourusername/openstacksummit2015-tokyo-neutron-ha/.
