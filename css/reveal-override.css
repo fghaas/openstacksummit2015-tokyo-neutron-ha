@@ -53,7 +53,7 @@ body,
 .reveal h6 {
   font-family: "Cabin", sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   text-stroke: 1px black;
   color: white;
   text-shadow:
