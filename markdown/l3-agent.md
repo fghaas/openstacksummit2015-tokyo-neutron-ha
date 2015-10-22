@@ -18,9 +18,10 @@ bottleneck.
 ## Active/Active HA
 
 
-## `neutron-scheduler`
-Note: since Grizzly, we've had the `neutron-scheduler` service
-(formerly `quantum-scheduler`). This allows us to assign virtual
+### `agent_scheduler`
+Note: since Grizzly, we've had the `agent_scheduler` extension.
+In Havana it was split into separate DHCP and L3 agent scheduler
+extensions. The latter allows us to assign virtual
 routers to L3 agents in a round-robin fashion, such that we can
 distribute routers across multiple network nodes. However, this
 assignment is permanent and there is no automatic failure detection
