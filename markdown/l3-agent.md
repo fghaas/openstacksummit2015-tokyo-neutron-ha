@@ -19,6 +19,18 @@ bottleneck.
 
 
 ### `agent_scheduler`
+
+    # neutron ext-list
+    +-----------------------+-----------------------------+
+    | alias                 | name                        |
+    +-----------------------+-----------------------------+
+    | ...                   | ...                         |
+    | l3_agent_scheduler    | L3 Agent Scheduler          |
+    | ...                   | ...                         |
+    | dhcp_agent_scheduler  | DHCP Agent Scheduler        |
+    | ...                   | ...                         |
+    +-----------------------+-----------------------------+
+
 Note: since Grizzly, we've had the `agent_scheduler` extension.
 In Havana it was split into separate DHCP and L3 agent scheduler
 extensions. The latter allows us to assign virtual
