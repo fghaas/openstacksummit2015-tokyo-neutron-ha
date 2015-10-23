@@ -43,7 +43,9 @@ manages:
 
 `/etc/neutron/neutron.conf`
 
-    dhcp_agents_per_network = <%= @network_nodes_count %>
+```erb
+dhcp_agents_per_network = <%= @network_nodes_count %>
+```
 
 
 ### HA routers
