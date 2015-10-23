@@ -58,7 +58,6 @@ cause user-impacting network downtime.
 
 
 ## Distributed virtual routers
-*(experimental)*
 Note: there are several limitations to DVR and L3 HA in Juno. Most
 importantly, right now you can have a router that is *either* DVR *or*
 HA (with VRRP), but not both. So for any router, you can fix the SPOF
@@ -67,7 +66,6 @@ VxLAN.
 
 
 ## HA virtual routers
-*(experimental)*
 Note: HA virtual routers employ keepalived to maintain a VRRP gateway
 address inside a router namespace on two network nodes. Failover is
 extremely quick, meaning you do not lose a ping, but HA routers
