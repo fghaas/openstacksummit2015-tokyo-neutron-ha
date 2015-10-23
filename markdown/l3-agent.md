@@ -74,3 +74,61 @@ importantly, right now you can have a router that is *either* DVR *or*
 HA (with VRRP), but not both. So for any router, you can fix the SPOF
 or the bottleneck, but not both. DVR is also only supported with
 VxLAN.
+
+
+<!-- .slide: data-background-image="images/assaf/00.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/01.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/02.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/03.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/04.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/05.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/06.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/07.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/08.svg" data-background-size="contain" -->
+
+
+### HA Routers
+&
+### Layer 2 Population
+
+
+Remember
+### state visibility?
+Update port binding host value whenever agent reports state change
+
+
+Assumes
+## control plane
+is operational!
+
+
+## No l2pop
+Failover assumes data plane connectivity
+## L2pop
+Failover assumes messaging server, database, target L3 agent and neutron-server
+
+
+## Coming up
+in Mitaka
+
+
+### L3 HA & DVR integration
+
+
+`neutron router-update --ha=True <old_router>`
