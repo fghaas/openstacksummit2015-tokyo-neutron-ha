@@ -1,8 +1,3 @@
-# Open issues
-Note: We still had a few issues related to HA in Icehouse. Some of
-these are fixed in the pending Juno release.
-
-
 HA for
 ## Neutron L3 agents
 Note: The Neutron L3 agent has been an issue for some time.
@@ -57,8 +52,15 @@ agent that is down. This is extremely slow, however, and likely to
 cause user-impacting network downtime.
 
 
+## Distributed virtual routers
+Note: there are several limitations to DVR and L3 HA in Juno. Most
+importantly, right now you can have a router that is *either* DVR *or*
+HA (with VRRP), but not both. So for any router, you can fix the SPOF
+or the bottleneck, but not both. DVR is also only supported with
+VxLAN.
+
+
 ## HA virtual routers
-*(experimental)*
 Note: HA virtual routers employ keepalived to maintain a VRRP gateway
 address inside a router namespace on two network nodes. Failover is
 extremely quick, meaning you do not lose a ping, but HA routers
@@ -67,15 +69,59 @@ quick enough to not drop a ping, existing TCP connections *will* die
 or need to be recreated. `conntrackd` is a logical addition.
 
 
-## Distributed virtual routers
-*(experimental)*
-Note: there are several limitations to DVR and L3 HA in Juno. Most
-importantly, right now you can have a router that is *either* DVR *or*
-HA (with VRRP), but not both. So for any router, you can fix the SPOF
-or the bottleneck, but not both. DVR is also only supported with
-VxLAN.
+<!-- .slide: data-background-image="images/assaf/00.svg" data-background-size="contain" -->
 
 
-Highly available
-## Nova guests
-Still waiting...
+<!-- .slide: data-background-image="images/assaf/01.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/02.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/03.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/04.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/05.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/06.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/07.svg" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="images/assaf/08.svg" data-background-size="contain" -->
+
+
+### HA Routers
+&
+### Layer 2 Population
+
+
+Remember
+### state visibility?
+Update port binding host value whenever agent reports state change
+
+
+Assumes
+## control plane
+is operational!
+
+
+## No l2pop
+Failover assumes data plane connectivity
+## L2pop
+Failover assumes messaging server, database, target L3 agent and neutron-server
+
+
+## Coming up
+in Mitaka
+
+
+### L3 HA & DVR integration
+
+
+`neutron router-update --ha=True <old_router>`
