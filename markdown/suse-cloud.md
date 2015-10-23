@@ -3,7 +3,6 @@ in
 ### SUSE OpenStack Cloud 5
 
 
-
 ### SUSE OpenStack Cloud 5
 
 -   released May 2015
