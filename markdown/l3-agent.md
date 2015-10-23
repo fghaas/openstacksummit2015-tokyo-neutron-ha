@@ -74,8 +74,3 @@ importantly, right now you can have a router that is *either* DVR *or*
 HA (with VRRP), but not both. So for any router, you can fix the SPOF
 or the bottleneck, but not both. DVR is also only supported with
 VxLAN.
-
-
-Highly available
-## Nova guests
-Still waiting...
