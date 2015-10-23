@@ -1,6 +1,6 @@
 ### Neutron HA
 in
-### SUSE OpenStack Cloud 5
+## SUSE OpenStack Cloud 5
 
 
 ### SUSE OpenStack Cloud 5
