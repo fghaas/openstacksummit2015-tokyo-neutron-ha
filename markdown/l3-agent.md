@@ -1,8 +1,3 @@
-# Open issues
-Note: We still had a few issues related to HA in Icehouse. Some of
-these are fixed in the pending Juno release.
-
-
 HA for
 ## Neutron L3 agents
 Note: The Neutron L3 agent has been an issue for some time.

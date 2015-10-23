@@ -1,6 +1,3 @@
-# Almost there!
-
-
 <!-- .slide: data-background="images/by-sa.svg" data-background-size="contain" -->
 Please
 ## share, copy, adapt, remix!
