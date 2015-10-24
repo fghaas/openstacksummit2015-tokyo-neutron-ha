@@ -96,11 +96,6 @@ or need to be recreated. `conntrackd` is a logical addition.
 <!-- .slide: data-background-image="images/assaf/08.svg" data-background-size="contain" -->
 
 
-### HA Routers
-&
-### Layer 2 Population
-
-
 Remember
 ### state visibility?
 Update port binding host value whenever agent reports state change
