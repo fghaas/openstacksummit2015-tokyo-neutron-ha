@@ -22,3 +22,11 @@ Note: *Adam*
 
 <!-- .slide: data-background-image="images/adam/03.svg" data-background-size="contain" -->
 Note: *Adam*
+
+
+<iframe data-autoplay
+	src="https://asciinema.org/api/asciicasts/28770?speed=1&amp;size=big&amp"
+	id="asciicast-iframe-28770"
+	name="asciicast-iframe-28770"
+	scrolling="yes"></iframe>
+Note: *Adam*:
